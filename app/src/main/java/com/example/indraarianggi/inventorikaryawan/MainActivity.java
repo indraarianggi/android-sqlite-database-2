@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 if (txtPassword.equals(storedPassword)) {
                     Toast.makeText(MainActivity.this, "Congrats: Login Successfull", Toast.LENGTH_LONG).show();
                     dialog.dismiss();
+                    startActivity(new Intent(MainActivity.this, HomeActivity.class));
                 } else {
                     Toast.makeText(MainActivity.this, "Username or Password does not match", Toast.LENGTH_LONG).show();
                 }

@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.example.indraarianggi.inventorikaryawan.adapterKaryawan.DBDataSource;
 import com.example.indraarianggi.inventorikaryawan.adapterKaryawan.Karyawan;
+import com.example.indraarianggi.inventorikaryawan.recycler.ListData;
 
 public class TambahDataActivity extends AppCompatActivity implements View.OnClickListener {
 
